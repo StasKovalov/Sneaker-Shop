@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Trueno';
+    src: url('../fonts/TruenoLt.eot');
+    src: url('../fonts/TruenoLt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TruenoLt.woff2') format('woff2'),
+        url('../fonts/TruenoLt.woff') format('woff'),
+        url('../fonts/TruenoLt.ttf') format('truetype'),
+        url('../fonts/TruenoLt.svg#TruenoLt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    src: url('TruenoUltBlk.eot');
+    src: url('TruenoUltBlk.eot?#iefix') format('embedded-opentype'),
+        url('TruenoUltBlk.woff2') format('woff2'),
+        url('TruenoUltBlk.woff') format('woff'),
+        url('TruenoUltBlk.ttf') format('truetype'),
+        url('TruenoUltBlk.svg#TruenoUltBlk') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    src: url('TruenoBd.eot');
+    src: url('TruenoBd.eot?#iefix') format('embedded-opentype'),
+        url('TruenoBd.woff2') format('woff2'),
+        url('TruenoBd.woff') format('woff'),
+        url('TruenoBd.ttf') format('truetype'),
+        url('TruenoBd.svg#TruenoBd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
