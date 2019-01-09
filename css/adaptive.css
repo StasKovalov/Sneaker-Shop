@@ -779,10 +779,17 @@
  	font-size: 11px;
  }
 
+ .h1__content-air {
+ 	margin: 0 5px;
+ }
+
  .authorization__element {
  	font-size: 11px;
  }
 
+ .h3__content-50 {
+ 	margin-right: 7px;
+ }
 
  .sale-info:before {
 		left: -8px;
