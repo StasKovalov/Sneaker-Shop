@@ -227,7 +227,7 @@ body {
 }
 
 .button:hover:after {
-	transform: scaleX(1);
+	transform: scaleX(0.5);
 }
 
 /*} ГЛАВНАЯ СЕКЦИЯ */
@@ -397,7 +397,7 @@ body {
  	justify-content: space-between;
  	display: none;
  }
- 
+
  .productItem {
  	padding: 15px;
 	margin-top: 2.4%;
@@ -685,7 +685,7 @@ cursor: pointer;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-bottom: 15px solid rgba(169, 96, 96, 0.9);
-	top: -14px;
+	top: -15px;
 	margin-left: 50%;
 	transform: translateX(-50%);
 }
