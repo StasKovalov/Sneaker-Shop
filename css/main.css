@@ -395,13 +395,9 @@ body {
  	opacity: 0;
  	transition: all 1.4s ease-out;
  	justify-content: space-between;
- 	visibility: hidden;
+ 	display: none;
  }
-
- .popular, .top-picks {
- 	align-items: flex-start;
- }
-
+ 
  .productItem {
  	padding: 15px;
 	margin-top: 2.4%;
@@ -516,34 +512,19 @@ cursor: pointer;
 #shop__new:checked ~ .switcher .new {
 	order: -1;
 	opacity: 1;
-	visibility: visible;
+	display: flex;
 }
 
 #shop__popular:checked ~ .switcher .popular {
 	order: -1;
 	opacity: 1;
-	visibility: visible;
+	display: flex;
 }
 
 #shop__top-picks:checked ~ .switcher .top-picks {
 	order: -1;
 	opacity: 1;
-	visibility: visible;
-}
-
-
-#shop__popular:checked ~ .block {
-    position: absolute;
-    bottom: 64px;
-    z-index: 2;
-}
-
-
-
-#shop__top-picks:checked ~ .block {
-    position: absolute;
-    bottom: 64px;
-    z-index: 2;
+	display: flex;
 }
 
 #shop__new:checked ~ .control .control__new {
@@ -565,19 +546,18 @@ cursor: pointer;
 .block {
 	padding: 80px 0;
 	display: flex;
-	justify-content: space-around;
+	box-sizing: content-box;
 	align-items: center;
 }
 
 .brands{
-	flex-basis: 10.666%;
+	flex-basis: 15%;
+	margin-right:2%;
 }
 
-.block__brands {
-	flex-basis: 32%;
+.brands:last-child{
+	margin-right:0%;
 }
-
-
 
 .brands__img {
 	display: block;

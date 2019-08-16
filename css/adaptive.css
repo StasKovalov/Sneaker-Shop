@@ -639,13 +639,9 @@
     margin-top: 4%;
 }
 
-.block__brands {
-	flex-basis: 100%;
-}
-
 .block {
 	flex-wrap: wrap;
-	justify-content: space-between;
+	padding: 30px 0px;
 }
 
 .popular, .top-picks {
@@ -653,8 +649,12 @@
 }
 
 .brands-adaptive {
-	margin-top: 20px;
-	flex-basis: 22%;
+	flex-basis: 30%;
+	margin-right: 5%;
+}
+
+.brands-adaptive:nth-child(3n+3) {
+	margin-right: 0%;
 }
 
 /*} ЧЕТВЕРТАЯ СЕКЦИЯ*/
