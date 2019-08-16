@@ -227,7 +227,7 @@ body {
 }
 
 .button:hover:after {
-	transform: scaleX(0.5);
+	transform: scaleX(1);
 }
 
 /*} ГЛАВНАЯ СЕКЦИЯ */
