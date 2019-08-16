@@ -318,7 +318,7 @@
 	position: absolute;
 	right: -50%;
 	top: 40%;
-	transition: all 0.3s ease-out;
+	transition: all 0.11s ease-out;
 	border-radius: 45px;
 	transform: translateY(-50%);
 }
@@ -643,7 +643,7 @@
 	padding: 30px 0px;
 }
 
-.popular, .top-picks {
+.popular, .t.content__op-picks {
     align-self: flex-start;
 }
 
